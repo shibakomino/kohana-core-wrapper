@@ -1,3 +1,4 @@
-<?php defined('SYSPATH') OR die('No direct script access.');
+<?php
+include SYSPATH.'classes/HTTP/Response.php';
 
-interface HTTP_Response extends Kohana_HTTP_Response {}
+interface HTTP_Response extends \Kohana\HTTP\Response {}

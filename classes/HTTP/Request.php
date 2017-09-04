@@ -1,3 +1,4 @@
-<?php defined('SYSPATH') OR die('No direct script access.');
+<?php
+include SYSPATH.'classes/HTTP/Request.php';
 
-interface HTTP_Request extends Kohana_HTTP_Request {}
+interface HTTP_Request extends \Kohana\HTTP\Request {}

@@ -1,3 +1,4 @@
-<?php defined('SYSPATH') OR die('No direct script access.');
+<?php
+include SYSPATH.'classes/Controller.php';
 
-abstract class Controller extends Kohana_Controller {}
+abstract class Controller extends \Kohana\Controller {}

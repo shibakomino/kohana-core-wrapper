@@ -1,3 +1,4 @@
-<?php defined('SYSPATH') OR die('No direct script access.');
+<?php
+include SYSPATH.'classes/Response.php';
 
-class Response extends Kohana_Response {}
+class Response extends \Kohana\Response {}

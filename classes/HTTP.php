@@ -1,3 +1,4 @@
-<?php defined('SYSPATH') OR die('No direct script access.');
+<?php
+include SYSPATH.'classes/HTTP.php';
 
-abstract class HTTP extends Kohana_HTTP {}
+abstract class HTTP extends \Kohana\HTTP {}

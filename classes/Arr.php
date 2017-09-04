@@ -1,3 +1,4 @@
-<?php defined('SYSPATH') OR die('No direct script access.');
+<?php
+include SYSPATH.'classes/Arr.php';
 
-class Arr extends Kohana_Arr {}
+class Arr extends \Kohana\Arr {}

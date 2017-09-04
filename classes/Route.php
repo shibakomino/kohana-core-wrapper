@@ -1,3 +1,4 @@
-<?php defined('SYSPATH') OR die('No direct script access.');
+<?php
+include SYSPATH.'classes/Route.php';
 
-class Route extends Kohana_Route {}
+class Route extends \Kohana\Route {}

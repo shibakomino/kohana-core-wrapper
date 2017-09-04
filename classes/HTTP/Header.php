@@ -1,3 +1,4 @@
-<?php defined('SYSPATH') OR die('No direct script access.');
+<?php
+include SYSPATH.'classes/HTTP/Header.php';
 
-class HTTP_Header extends Kohana_HTTP_Header {}
+class HTTP_Header extends \Kohana\HTTP\Header {}

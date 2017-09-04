@@ -1,3 +1,4 @@
-<?php defined('SYSPATH') OR die('No direct script access.');
+<?php
+include SYSPATH.'classes/Request/Client.php';
 
-abstract class Request_Client extends Kohana_Request_Client {}
+abstract class Request_Client extends \Kohana\Request\Client {}

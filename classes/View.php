@@ -1,3 +1,4 @@
-<?php defined('SYSPATH') OR die('No direct script access.');
+<?php
+include SYSPATH.'classes/View.php';
 
-class View extends Kohana_View {}
+class View extends \Kohana\View {}

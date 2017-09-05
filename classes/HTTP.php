@@ -1,4 +1,4 @@
 <?php
-include SYSPATH.'classes/HTTP.php';
+include SYSPATH.'classes/Kohana/HTTP.php';
 
 abstract class HTTP extends \Kohana\HTTP {}

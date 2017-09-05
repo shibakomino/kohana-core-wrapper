@@ -1,4 +1,4 @@
 <?php
-include SYSPATH.'classes/HTTP/Response.php';
+include SYSPATH.'classes/Kohana/HTTP/Response.php';
 
 interface HTTP_Response extends \Kohana\HTTP\Response {}
